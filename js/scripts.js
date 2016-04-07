@@ -76,16 +76,17 @@ $(document).ready(function(){
 
             if ($('#game-board').find('#a1').text() == $('#game-board').find('#b1').text()) {
                 if ($('#game-board').find('#a1').text() == $('#c1').text()) {
-                  if ($('#game-board').find('#a3').text() === 'X'){
+                  if ($('#game-board').find('#c1').text() === 'X'){
                     alert('Game over! '+ nameInput1 +' is the winner!');
                     $('#newGame').removeClass('invisible');
                   }
-                  if ($('#game-board').find('#a3').text() === 'O'){
+                  if ($('#game-board').find('#c1').text() === 'O'){
                     alert('Game over! '+ nameInput2 +' is the winner!');
                     $('#newGame').removeClass('invisible');
                   }
             }
           }
+
         //left diagonal check
 
             if ($('#game-board').find('#a1').text() == $('#game-board').find('#b2').text()) {
@@ -129,12 +130,12 @@ $(document).ready(function(){
         //right column check
         if ($('#game-board').find('#a3').text() !== ''){
             if ($('#game-board').find('#a3').text() == $('#game-board').find('#b3').text()) {
-                if ($('#game-board').find('#a3').text() == $('#c9').text()) {
-                  if ($('#game-board').find('#c9').text() === 'X'){
+                if ($('#game-board').find('#a3').text() == $('#c3').text()) {
+                  if ($('#game-board').find('#c3').text() === 'X'){
                     alert('Game over! '+ nameInput1 +' is the winner!');
                     $('#newGame').removeClass('invisible');
                   }
-                  if ($('#game-board').find('#c9').text() === 'O'){
+                  if ($('#game-board').find('#c3').text() === 'O'){
                     alert('Game over! '+ nameInput2 +' is the winner!');
                     $('#newGame').removeClass('invisible');
                   }
