@@ -18,3 +18,26 @@
 	transition:all 0.3s linear;
 	cursor:pointer;
 }
+
+#playerOrder {
+	text-align:center;
+}
+
+.jumbotron {
+	text-align: center;
+	
+}
+
+body {
+	background-color: black;
+}
+
+table {
+	background-color: gray;
+
+}
+.container {
+		padding-top: 3em;
+    width: 50%;
+    height: 100px;
+}
